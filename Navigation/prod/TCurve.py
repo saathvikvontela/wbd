@@ -138,22 +138,21 @@ class TCurve(object):
             simpsonOld = simpsonNew
             A = (highvalue - lowvalue)
             w = A / s
-            w = (highvalue - lowvalue) / s
-            x1=0.0
-            x2=0.0 
+            w = (highvalue - lowvalue) / s           
             term=1
-            while(term<s):
-                if(0!=term%2):
-                    Coeff_four=4.0*f(term*w,n) 
-                    x1=x1+Coeff_four
-                    term=term+1
-                elif(0==term%2& term<s):
-                    Coeff_two=2.0*f(term*w,n) 
-                    x2=x2+Coeff_two
-                    term=term+1
-            simpsonNew = (w/3)*(f(0,n)+x1+x2+f(t,n))  
+            sSum=0
+            while(term < s):
+                if term==0 or term==s:
+                    sSum += f(lowvalue + (w*term),n)
+                elif(term % 2 == 0):
+                    sSum += 4*f(lowvalue + (w*term),n)
+                elif(term % 2 != 0):
+                    sSum += 2*f(lowvalue + (w*term),n)
+
+            simponsnew=(w / 3) * sSum
+  
             s = s * 2
-        return simpsonNew
+            return simpsonNew
     
         
             
