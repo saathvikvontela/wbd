@@ -222,6 +222,7 @@ class TCurveTest(unittest.TestCase):
 # Sad path
 #            none ... x is pre-validated
 
+
     def test400_010_ShouldCalculateFStarterCase(self):
         myT = T.TCurve(self.nominalN)
         self.assertAlmostEquals(myT.f(0, 5), 1, 4)
