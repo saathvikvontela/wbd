@@ -8,6 +8,7 @@ class Angle():
         self.degrees = 0.0
         self.minutes = 0.0
 
+
     # setDegrees method receives parameter degrees as number.
     # It divides received degree into degrees and minutes.
     def setDegrees(self, degrees=0):
