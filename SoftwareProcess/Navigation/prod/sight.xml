@@ -1,0 +1,28 @@
+<fix>
+	<sighting>	
+		<body>Unknown</body>	
+		<date>2017-04-17</date>	
+		<time>10:30:30</time>	
+		<observation>00d0.2</observation>	
+	</sighting>	
+	<sighting>			
+		<body>Pollux</body>			
+		<date>2017-04-15</date>			
+		<time>23:50:14</time>			
+		<observation>015d04.9</observation>			
+		<height>6.0</height>			
+		<temperature>72</temperature>			
+		<pressure>1010</pressure>			
+		<horizon>Artificial</horizon>			
+	</sighting>			
+	<sighting>			
+		<body>Sirius</body>			
+		<date>2017-04-09</date>
+		<time>09:30:30</time>			
+		<observation>045d15.2</observation>			
+		<height>6.0</height>			
+		<temperature>71</temperature>			
+		<pressure>1010</pressure>			
+		<horizon>Natural</horizon>			
+	</sighting>			
+</fix>			
