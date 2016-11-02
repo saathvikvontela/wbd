@@ -6,6 +6,7 @@ import Angle as Angle
 from math import *
 
 
+
 class Fix():
     """ Fix is calculating approximate a geographical position base on received navigational information.
     """
