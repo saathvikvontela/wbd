@@ -1,0 +1,32 @@
+<fix>
+	<sighting>			
+		<body>Rigil Kent.</body>			
+		<date>2017-03-24</date>			
+		<time>23:41:56</time>			
+		<observation>035d14.8</observation>			
+		<height>31.0</height>			
+		<temperature>72</temperature>			
+		<pressure>1010</pressure>			
+		<horizon>natural</horizon>			
+	</sighting>
+	<sighting>			
+		<body>Acrux</body>			
+		<date>2017-03-24</date>			
+		<time>23:42:06</time>			
+		<observation>048d40.2</observation>			
+		<height>32.0</height>			
+		<temperature>72</temperature>			
+		<pressure>1010</pressure>			
+		<horizon>natural</horizon>			
+	</sighting>
+	<sighting>			
+		<body>Aldebaran</body>			
+		<date>2017-03-24</date>			
+		<time>23:43:12</time>			
+		<observation>013d51.6</observation>			
+		<height>33.0</height>			
+		<temperature>72</temperature>			
+		<pressure>1010</pressure>			
+		<horizon>natural</horizon>			
+	</sighting>
+</fix>			
